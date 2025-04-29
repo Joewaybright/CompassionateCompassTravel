@@ -1,0 +1,169 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Compassionate Compass Travel Group</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f7f9;
+      color: #333;
+    }
+    header {
+      background-color: #013a63;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header img {
+      max-width: 200px;
+      display: block;
+      margin: 0 auto 1rem;
+    }
+    header h1 {
+      margin: 0;
+    }
+    section {
+      padding: 2rem 1rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    .cta {
+      background-color: #ffd166;
+      padding: 1.5rem;
+      text-align: center;
+      font-size: 1.25rem;
+      font-weight: bold;
+      margin: 2rem 0;
+    }
+    .button {
+      display: inline-block;
+      background-color: #06d6a0;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      margin-top: 1rem;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    footer {
+      background-color: #013a63;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    .pricing {
+      background-color: #e0f7fa;
+      border-radius: 8px;
+      padding: 2rem;
+      margin: 2rem 0;
+    }
+    .pricing h3 {
+      margin-top: 0;
+    }
+    .pricing ul {
+      list-style: none;
+      padding: 0;
+    }
+    .pricing li {
+      margin: 0.5rem 0;
+    }
+    form {
+      background-color: #fff;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    form label {
+      display: block;
+      margin-top: 1rem;
+    }
+    form input, form select, form textarea {
+      width: 100%;
+      padding: 0.5rem;
+      margin-top: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    form button {
+      margin-top: 1rem;
+      background-color: #06d6a0;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="file-TCbEPQgrUVK7HYBWBzg1RK" alt="Compassionate Compass Logo">
+    <h1>Compassionate Compass Travel Group</h1>
+    <p>Empowering Every Family to Explore the World</p>
+  </header> <section>
+    <h2>Attention</h2>
+    <p>Planning travel with a child who has special needs can be overwhelming and stressful. You deserve support, resources, and a community that understands your unique journey.</p><h2>Interest</h2>
+<p>At Compassionate Compass, we specialize in personalized travel planning for families with special needs children. From accessible accommodations to sensory-friendly itineraries, we design each trip with your family’s needs in mind.</p>
+
+<h2>Desire</h2>
+<p>Imagine a vacation where your child feels safe, seen, and celebrated—where your family can focus on making joyful memories, not navigating unexpected challenges.</p>
+<div class="cta">
+  Let us guide your journey with care and compassion.
+  <br />
+  <a href="#booking" class="button">Start Planning</a>
+</div>
+
+<h2>Action</h2>
+<p>Contact us today for a free consultation. We'll listen to your family's needs and craft a travel experience that works for everyone.</p>
+
+  </section> <section class="pricing">
+    <h2>Our Pricing Plans</h2><h3>Discovery Package – $250</h3>
+<ul>
+  <li>One-on-one travel consultation</li>
+  <li>Personalized travel recommendations</li>
+  <li>Access to vetted resources and support tips</li>
+</ul>
+
+<h3>Navigator Package – $750</h3>
+<ul>
+  <li>Everything in Discovery Package</li>
+  <li>Complete itinerary planning</li>
+  <li>Accommodation and activity bookings</li>
+  <li>24/7 travel support</li>
+</ul>
+
+<h3>Compass Concierge – $1,200</h3>
+<ul>
+  <li>All Navigator benefits</li>
+  <li>Dedicated travel concierge</li>
+  <li>On-call behavior support planning</li>
+  <li>Customized sensory guides and travel tools</li>
+</ul>
+
+  </section> <section id="booking">
+    <h2>Book Your Trip</h2>
+    <form action="mailto:CompassionateCompassTravel@gmail.com" method="POST" enctype="text/plain">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required><label for="email">Email Address</label>
+  <input type="email" id="email" name="email" required>
+
+  <label for="package">Select a Package</label>
+  <select id="package" name="package">
+    <option value="discovery">Discovery Package – $250</option>
+    <option value="navigator">Navigator Package – $750</option>
+    <option value="concierge">Compass Concierge – $1,200</option>
+  </select>
+
+  <label for="details">Tell us about your family’s needs</label>
+  <textarea id="details" name="details" rows="5"></textarea>
+
+  <button type="submit">Submit Booking Request</button>
+</form>
+
+  </section> <footer>
+    <p>&copy; 2025 Compassionate Compass Travel Group | Contact: <a href="mailto:CompassionateCompassTravel@gmail.com">CompassionateCompassTravel@gmail.com</a></p>
+  </footer>
+</body>
+</html>
